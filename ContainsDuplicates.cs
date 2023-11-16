@@ -4,7 +4,7 @@ using System;
 public class ContainsDuplicates
 {
     // Create a method to detect if array has duplicates.
-    public static bool duplicate(int[] nums)
+    public static bool Duplicate(int[] nums)
     {
         for (int i = 0; i < nums.Length - 1; i++)
         {
@@ -24,6 +24,6 @@ public class ContainsDuplicates
     public static void Main(string[] args)
     {
         int[] nums = {3, 2, 3, 4};
-        duplicate(nums);
+        Duplicate(nums);
     }
 }
