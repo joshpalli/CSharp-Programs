@@ -21,7 +21,7 @@ public class ContainsDuplicates
     }
 
     // Make a Driver method to test function.
-    public static void Main(string[] args)
+    static void Main(string[] args)
     {
         int[] nums = {3, 2, 3, 4};
         Duplicate(nums);
